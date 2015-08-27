@@ -25,10 +25,4 @@ public class CardObject : MonoBehaviour {
 			this.gameObject.GetComponent<Image>().sprite = thisSprite;
 		}
 	}
-	void OnMouseDown()
-	{
-		if (Input.GetMouseButtonDown(0)){
-			print ("Box Clicked!");
-		}
-	}
 }
