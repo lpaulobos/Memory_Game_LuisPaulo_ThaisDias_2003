@@ -10,9 +10,11 @@ public class CardObject : MonoBehaviour {
 	public int index;
 	public bool isDown;
 	public bool valueNull;
+	public bool discoveredCard;
 
 	void Start()
 	{
+		discoveredCard = false;
 		valueNull = true;
 		isDown = true;
 	}
